@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anna Baranova CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+        <header>
+          <div class="container">
+            <nav class="nav">
+              <ul class="nav-list">
+                <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#codeExample" class="nav-link">Code Example</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+        <main>
+        <div class="container main-container">
+        <div class="container-left">
+          <section class="section" id="profile">
+            <img class="my-photo" src="./assets/img/myPhoto.png" alt="my photo">
+          <h1>Anna Baranova</h1>
+          <h2 class="position-title">Junior Front-End Developer</h2>
+          </section>
+         <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-list">
+            <li class="section-item">
+              Location: Saint-Petersburg, Russia
+            </li>
+            <li class="section-item">
+              Phone: +79615902457
+            </li>
+            <li class="section-item">
+              Email: annabar92@mail.ru
+            </li>
+            <li class="section-item">
+              GitHub: annabarnv
+            </li>
+          </ul>
+         </section>
+        </div>
+        <div class="container-right">
+          <section class="section-right" id="aboutMe">
+            <h2 class="section-title">About Me</h2>
+            <p>
+              I am learning front-end development. I love the idea of taking data and convert it into something visually appealing for users to enjoyably digest. I see programming for myself as a form of creativity and self-expression just like in music. My first education was in the theory of music and harmony. In my opinion, coding and music have similarities. Both require large amounts of deliberate practice and are not an innate talent. Well, with the exception of geniuses.) 
+            </p>
+          </section>
+          <section class="section-right" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul>
+              <li>
+                HTML5, CSS3
+              </li>
+              <li>
+                Java Script Basics
+              </li>
+              <li>
+                Git, GitHub
+              </li>
+              <li>
+                VS Code
+              </li>
+              <li>
+                Figma
+              </li>
+            </ul>
+          </section>
+          <section class="section-right" id="codeExample">
+            <h2 class="section-title">Code Example</h2>
+            <pre>
+              <code>
+                function convert(input, source, target) {
+                  let s = 0, str = '';
+                   for(let i = 0; i < input.length; i++) {
+                     s = s*source.length + source.indexOf(input[i]);
+                   }
+                     while (s > 0) {
+                       str = target[s % target.length] + str;
+                       s = Math.floor(s/target.length);
+                     }
+                   return str ? str : target[0];
+                 }
+
+              </code>
+            </pre>
+          </section>
+          <section class="section-right" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>State Budget Professional Educational Institution of the republic of Adygea "College of Arts": Theory of Music/Piano            
+            </p>
+          </section>
+          <section class="section-right" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul>
+              <li>
+                The Rollings Scopes School Course "JavaScript/Front-end. Stage 0" (Stage 1 in progress)
+              </li>
+              <li>
+                Code Basics Course HTML/CSS/JavaScript for beginners
+              </li>
+              <li>
+                CS50 lectures
+              </li>
+              <li>
+                Conversational English course for adults (level B1)
+              </li>
+              <li>
+                Norwegian course intermediate level at the folk high school in Norway (B1)
+              </li>
+            </ul>
+          </section>
+          <section class="section-right" id="languages">
+            <h2 class="section-title">Languages</h2>
+            <ul>
+              <li>
+                English - B1 (EPAM Training Portal English test result) I had been practicing English when I lived in Norway on a cultural exchange program.
+              </li>
+              <li>
+                Norwegian - B1 (Norway, Tønsberg Læringssenter Norskprøve https://www.kompetansenorge.no/)
+              </li>
+              <li>
+                Russian - Native
+              </li>
+            </ul>
+          </section>
+        </div>
+        </div>
+        </main>
+    <footer>
+      <div class="container">
+      <a class="myGitHub" href="https://github.com/annabarnv">
+        <p><img class="github-logo" src="./assets/svg/1200px-Octicons-mark-github.svg.png" alt="Github Icon">My GitHub</p>
+      </a>
+      <p class="year">© 2022</p>
+      <a href="https://rs.school/js/">
+      <img class="rsschool-logo" src="./assets/svg/rs_school_js.svg" alt="RSSchool Icon" width="73" height="26">
+      </a>
+    </div>
+    </footer>
+</body>
+</html>
