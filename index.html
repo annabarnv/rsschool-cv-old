@@ -28,11 +28,13 @@
       </div>
     </header>
     <main class="main">
-      <div class="container">
-        <section class="section" id="profile">
+      <div class="container main-container">
+        <section class="section section-profile" id="profile">
           <img class="my-photo" src="./assets/img/myPhoto.png" alt="my photo">
-        <h1>Anna Baranova</h1>
-        <h2 class="position-title">Junior Front-End Developer</h2>
+          <div class="section-profile-title">
+            <h1 class="section-title main-title">Anna Baranova</h1>
+            <h3 class="section-subtitle">Junior Front-End Developer</h3>
+          </div>
         </section>
         <section class="section" id="contacts">
         <h2 class="section-title">Contacts</h2>
@@ -51,13 +53,13 @@
           </li>
         </ul>
         </section>
-        <section class="section-right" id="aboutMe">
+        <section class="section" id="aboutMe">
           <h2 class="section-title">About Me</h2>
           <p>
             I am learning front-end development. I love the idea of taking data and convert it into something visually appealing for users to enjoyably digest. I see programming for myself as a form of creativity and self-expression just like in music. My first education was in the theory of music and harmony. In my opinion, coding and music have similarities. Both require large amounts of deliberate practice and are not an innate talent. Well, with the exception of geniuses.) 
           </p>
         </section>
-        <section class="section-right" id="skills">
+        <section class="section" id="skills">
           <h2 class="section-title">Skills</h2>
           <ul>
             <li>
@@ -77,26 +79,25 @@
             </li>
           </ul>
         </section>
-        <section class="section-right" id="codeExample">
+        <section class="section" id="codeExample">
           <h2 class="section-title">Code Example</h2>
-          <pre>
-            <code>
-              function convert(input, source, target) {
-                let s = 0, str = '';
-                  for(let i = 0; i < input.length; i++) {
-                    s = s*source.length + source.indexOf(input[i]);
-                  }
-                    while (s > 0) {
-                      str = target[s % target.length] + str;
-                      s = Math.floor(s/target.length);
-                    }
-                  return str ? str : target[0];
-                }
-
-            </code>
-          </pre>
+        <pre class="pre">
+        <code>
+        function convert(input, source, target) {
+          let s = 0, str = '';
+            for(let i = 0; i < input.length; i++) {
+              s = s*source.length + source.indexOf(input[i]);
+            }
+              while (s > 0) {
+                str = target[s % target.length] + str;
+                s = Math.floor(s/target.length);
+              }
+            return str ? str : target[0];
+          }
+        </code>
+        </pre>
         </section>
-        <section class="section-right" id="courses">
+        <section class="section" id="courses">
           <h2 class="section-title">Courses</h2>
           <ul>
             <li>
@@ -116,7 +117,7 @@
             </li>
           </ul>
         </section>
-        <section class="section-right" id="projects">
+        <section class="section" id="projects">
           <h2 class="section-title">Projects</h2>
           <ul>
             <li>
@@ -177,12 +178,12 @@
             </li>
           </ul>
         </section>
-        <section class="section-right" id="education">
+        <section class="section section-education" id="education">
           <h2 class="section-title">Education</h2>
           <p>State Budget Professional Educational Institution of the republic of Adygea "College of Arts": Theory of Music/Piano            
           </p>
         </section>
-        <section class="section-right" id="languages">
+        <section class="section section-english" id="languages">
           <h2 class="section-title">Languages</h2>
           <ul>
             <li>
@@ -198,7 +199,7 @@
         </section>
       </div>
     </main>
-    <footer class="fooetr">
+    <footer class="footer">
       <div class="container">
         <a class="myGitHub" href="https://github.com/annabarnv">
           <p><img class="github-logo" src="./assets/svg/1200px-Octicons-mark-github.svg.png" alt="Github Icon">My GitHub</p>
