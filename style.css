@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth; 
+}
+
 body {
   min-height: 100vh;
   margin: 0;
@@ -10,6 +14,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
 }
 
 .container {
@@ -17,3 +24,57 @@ body {
   margin: 0 auto;
 }
 
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  position: relative;
+  padding: 0 12px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 50px;
+  transition: .3s;
+}
+
+.nav-item a {
+  color: #829985;
+  text-decoration: none;  
+  transition: color 0.5s;
+}
+
+.nav-item a:hover {
+  color: #4d2323;
+}
+
+ .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 12px;
+  bottom: -5px;
+  width: calc(100% - 24px);
+  height: 2px;
+  background-color:#829985;
+  opacity: 0;
+  transition: .5s;
+}
+
+.nav-link:hover::after {
+  opacity: 1;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slidein {
+  from {
+    width: 0;
+  }
+  to {
+    width: calc(100% - 24px);
+  }
+}
