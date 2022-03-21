@@ -21,14 +21,26 @@ body {
   color: #4d2323;
 }
 
+h3 {
+  margin-bottom: 40px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #4d2323;
+  text-align: center;
+}
+
 .container {
+  width: calc(100% - 40px);
   max-width: 1440px;
   margin: 0 auto;
-  min-height: 50px;
+  padding: 0 20px;
 }
 
 .header {
+  width: 100%;
   background-color: #829985;
+  margin: 0 auto;
 }
 
 .nav-list {
@@ -182,4 +194,102 @@ body {
 
 .my-photo:hover {
   filter: none;
+}
+
+.footer {
+  background-color: #829985;
+  padding: 20px;  
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.footer-data {
+  max-height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.github {
+  color: #fff;
+  text-decoration: none;
+  line-height: 25px;
+}
+
+.github:hover {
+  color: #d7d1c9;
+}
+
+.rss-logo {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/svg/rss.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.rss-logo:hover {
+  filter: invert(4%) sepia(88%) saturate(123%) hue-rotate(328deg) brightness(90%) contrast(78%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.courses-section {
+  width: calc(100% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #672f2f;
+}
+
+.courses-list {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.projects-section {
+  width: calc(100% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #672f2f;
+}
+
+.project-title {
+  text-align: center;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.project-card {
+  display: inline-block;
+  width: 620px;
+  margin: 0px, 20px, 0px, 20px;
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-pic {
+  margin: 0px, 20px, 0px, 20px;
+}
+
+.project-description {
+  width: 220px;
+  height: 180px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 300;
 }
