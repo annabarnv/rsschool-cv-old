@@ -83,20 +83,20 @@
           </ul>
         </section>
         <section class="section" id="codeExample">
-          <h2 class="section-title">Code Example</h2>
+        <h2 class="section-title">Code Example</h2>
         <pre class="pre">
         <code>
         function convert(input, source, target) {
           let s = 0, str = '';
-            for(let i = 0; i < input.length; i++) {
-              s = s*source.length + source.indexOf(input[i]);
-            }
-              while (s > 0) {
-                str = target[s % target.length] + str;
-                s = Math.floor(s/target.length);
-              }
-            return str ? str : target[0];
-          }
+          for(let i = 0; i < input.length; i++) {
+          s = s*source.length + source.indexOf(input[i]);
+        }
+          while (s > 0) {
+          str = target[s % target.length] + str;
+            s = Math.floor(s/target.length);
+        }
+          return str ? str : target[0];
+        }
         </code>
         </pre>
         </section>
