@@ -5,8 +5,7 @@
 :root {
 --box-shadow: inset -1px 2px 7px 5px #232423, 2px 5px 16px 0px #111111, 5px 5px 15px 5px rgba(0,0,0,0);
 --box-shadow2: 0px 1px 5px rgb(121 114 108 / 80%);
-/* --color: #
---background-color:  */
+--color-accent: #929EA1;
 }
 
 html {
@@ -27,7 +26,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: #4d2323;
+  color: #000000;
 }
 
 .container {
@@ -40,7 +39,7 @@ body {
 
 .header {
   width: 100%;
-  background-color: #829985;
+  background-color: var(--color-accent);
   margin: 0 auto;
 }
 
@@ -130,7 +129,8 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: #829985;
+  color: var(--color-accent);
+  /* text-shadow: 4px 4px 6px rgba(118,99,99,0.6); */
 }
 
 .pre {
@@ -165,7 +165,7 @@ code {
   position: relative;
   padding: 0;
   margin-bottom: 20px;
-  color: #4d2323;
+  color: #4d3f36;
   font-size: 32px;
   font-weight: 300;
   letter-spacing: 10px;
@@ -181,7 +181,7 @@ code {
   margin-left: -70px;
   width: 140px;
   height: 2px;
-  background-color: #829985;
+  background-color: var(--color-accent);
 }
 
 .section-subtitle {
@@ -242,12 +242,12 @@ code {
 }
 
 span {
-  color: #829985;
+  color: var(--color-accent);
 }
 
 .section-item a {
   text-decoration: none;
-  color: #829985;
+  color: var(--color-accent);
   transition: color 0.5s;
 }
 
@@ -264,7 +264,7 @@ span {
 
 .norsk {
   text-decoration: none;
-  color: #829985;
+  color: var(--color-accent);
 }
 
 .contacts-item:before {
@@ -348,7 +348,7 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-weight: 300;
-  color: #475c49;
+  color: var(--color-accent);
   text-align: center;
 }
 
@@ -394,7 +394,7 @@ h3 {
 /*---------------------------------------------- Footer -----------------------------------------------*/
 
 .footer {
-  background-color: #829985;
+  background-color: var(--color-accent);
   padding: 20px;  
 }
 
