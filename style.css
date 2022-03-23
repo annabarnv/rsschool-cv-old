@@ -5,7 +5,9 @@
 :root {
 --box-shadow: inset -1px 2px 7px 5px #232423, 2px 5px 16px 0px #111111, 5px 5px 15px 5px rgba(0,0,0,0);
 --box-shadow2: 0px 1px 5px rgb(121 114 108 / 80%);
---color-accent: #929EA1;
+--color-accent: #444444;
+--color-accent2: #FFD966;
+--color-accent3: #f5bb1f;
 }
 
 html {
@@ -24,7 +26,7 @@ body {
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
   color: #000000;
 }
@@ -67,7 +69,7 @@ body {
 }
 
 .nav-item a:hover {
-  color: #d7d1c9;
+  color: var(--color-accent2);
 }
 
  .nav-link::after {
@@ -77,7 +79,7 @@ body {
   bottom: -5px;
   width: calc(100% - 24px);
   height: 2px;
-  background-color: #d7d1c9;
+  background-color: var(--color-accent2);
   opacity: 0;
   transition: .5s;
 }
@@ -129,7 +131,7 @@ body {
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: var(--color-accent);
+  color: var(--color-accent3);
   /* text-shadow: 4px 4px 6px rgba(118,99,99,0.6); */
 }
 
@@ -181,7 +183,7 @@ code {
   margin-left: -70px;
   width: 140px;
   height: 2px;
-  background-color: var(--color-accent);
+  background-color: var(--color-accent2);
 }
 
 .section-subtitle {
@@ -238,33 +240,33 @@ code {
   width: 14px;
   height: 14px; 
   background-size: 14px 14px;
-  background-image: url("assets/svg/6.svg");
+  background-image: url("assets/svg/5.png");
 }
 
 span {
-  color: var(--color-accent);
+  color: var(--color-accent2);
 }
 
 .section-item a {
   text-decoration: none;
-  color: var(--color-accent);
+  color: var(--color-accent2);
   transition: color 0.5s;
 }
 
 .contacts-link {
   padding: 0px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.5;
 }
 
 .section-item a:hover {
-  color: #d7d1c9;
+  color: var(--color-accent2);
 }
 
 .norsk {
   text-decoration: none;
-  color: var(--color-accent);
+  color: var(--color-accent2);
 }
 
 .contacts-item:before {
@@ -279,7 +281,7 @@ span {
 }
 
 .contacts-item:nth-child(1):before {
-  background-image: url("assets/svg/1.svg");
+  background-image: url("assets/svg/1.png");
 }
 
 .contacts-item:nth-child(2):before {
@@ -287,7 +289,7 @@ span {
   left: 0px;
   width: 21px;
   height: 21px;
-  background-image: url("assets/svg/phone-call.png");
+  background-image: url("assets/svg/2.png");
 }
 
 .contacts-item:nth-child(3):before {
@@ -295,7 +297,7 @@ span {
   left: 0px;
   width: 19px;
   height: 19px;
-  background-image: url("assets/svg/2.svg");
+  background-image: url("assets/svg/3.png");
 }
 
 .contacts-item:nth-child(4):before {
@@ -303,7 +305,7 @@ span {
   left: 0px;
   width: 21px;
   height: 21px;
-  background-image: url("assets/svg/3.svg");
+  background-image: url("assets/svg/4.png");
 }
 
 /*---------------------------------------------- Courses -----------------------------------------------*/
@@ -322,7 +324,7 @@ span {
 
 .certificate {
   margin-left: 80px;
-  border: 1px solid rgb(218, 210, 168, 0.7);
+  border: 1px solid var(--color-accent2);
   box-shadow: var(--box-shadow2);
 }
 
@@ -388,7 +390,7 @@ h3 {
   height: 180px;
   text-align: left;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 /*---------------------------------------------- Footer -----------------------------------------------*/
@@ -420,7 +422,7 @@ h3 {
 }
 
 .github:hover {
-  color: #d7d1c9;
+  color: var(--color-accent2);
 }
 
 .rss-logo {
@@ -432,7 +434,7 @@ h3 {
 }
 
 .rss-logo:hover {
-  filter: invert(4%) sepia(88%) saturate(123%) hue-rotate(328deg) brightness(90%) contrast(78%);
+  filter: invert(31%) sepia(99%) saturate(236%) hue-rotate(358deg) brightness(102%) contrast(104%);
   cursor: pointer;
   transition: 0.3s;
 }
