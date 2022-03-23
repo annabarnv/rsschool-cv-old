@@ -28,21 +28,18 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: #000000;
+  color: var(--color-accent);
 }
 
 .container {
-  width: calc(100% - 40px);
   max-width: 1440px;
   margin: 0 auto;
-  padding: 0 20px;
+  min-height: 50px;
 }
 /*---------------------------------------------- Header -----------------------------------------------*/
 
 .header {
-  width: 100%;
   background-color: var(--color-accent);
-  margin: 0 auto;
 }
 
 .nav-list {
@@ -441,6 +438,40 @@ h3 {
 
 /*---------------------------------------------- Adaptive -----------------------------------------------*/
 
+.toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-left: auto;
+  cursor: pointer;
+  user-select: none;
+  z-index: 15;
+}
+
+.toggle div {
+  width: 80%;
+  height: 2px;
+  background: #fff;
+  margin: 3px 0;
+  z-index: 15;
+}
+
+.toggle.collapsed .line1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle.collapsed .line2 {
+  opacity: 0;
+}
+
+.toggle.collapsed .line3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+
 
 @media (max-width: 1440px) {
   .container {
@@ -490,6 +521,33 @@ h3 {
   .footer-container {
     flex-direction: column;
     align-items: center;
+  }
+  .nav {
+    display: none;
+  }
+  .toggle {
+    display: flex;
+  }
+  .nav.collapsed {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    min-height: 525px;
+    flex-direction: column;
+    background-color: var(--color-accent);
+  }
+  .nav-list.collapsed {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding-top: 50px;
   }
 }
 
@@ -553,6 +611,4 @@ h3 {
     font-size: 16px;
   }
 }
-
-/*---------------------------------------- Burger menu -------------------------------------*/
 

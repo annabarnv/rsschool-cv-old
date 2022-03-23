@@ -1,3 +1,4 @@
+// Adaptive menu
 const toggleBtn = document.querySelector('.toggle');
 const nav = document.querySelector('.nav');
 const navList = document.querySelector('.nav-list');
