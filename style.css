@@ -516,6 +516,10 @@ h3 {
   .pre {
     margin-left: -80px;
   }
+  .main-title {
+    font-size: 24px;
+    letter-spacing: 4px;
+  }  
 }
 
 @media (max-width: 390px) {
@@ -549,3 +553,6 @@ h3 {
     font-size: 16px;
   }
 }
+
+/*---------------------------------------- Burger menu -------------------------------------*/
+
