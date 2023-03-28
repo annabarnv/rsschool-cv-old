@@ -4,9 +4,9 @@
 
 ## Contacts
 
-* **Location:** Saint-Petersburg, Russia
-* **Phone:** +79615902457
-* **Email:** annabar92@mail.ru
+* **Location:** Belgrade, Serbia
+* **Phone:** +381611735346
+* **Email:** anna.barnv@gmail.com
 * **GitHub:** annabarnv
  
 ## About Me
@@ -17,10 +17,13 @@ I am learning front-end development. I love the idea of taking data and convert 
 ## Skills
 
 * HTML5, CSS3
-* Java Script Basics
+* Vanilla JavaScript
 * Git, GitHub
-* VS Code
-* Figma
+* Visual Studio Code
+* TypeScript (basic)
+* Chrome DevTools
+* Figma (for developers)
+* SASS
 
 
 ## Code Example
@@ -45,7 +48,7 @@ function convert(input, source, target) {
 * **State Budget Professional Educational Institution of the republic of Adygea "College of Arts":** Theory of Music, Piano            
 
 * **Courses:**
-    - The Rollings Scopes School Course "JavaScript/Front-end. Stage 0", (Stage 1 in progress)
+    - The Rollings Scopes School Course "JavaScript/Front-end. Stage 0, Stage 1, Stage 2."
     - Code Basics Course HTML/CSS/JavaScript for beginners
     - CS50 lectures
     - Conversational English course for adults (level B1)
