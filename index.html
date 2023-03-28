@@ -45,11 +45,11 @@
         <h2 class="section-title">Contacts</h2>
         <ul class="section-list">
           <li class="section-item contacts-item">
-            Location: <span>Saint-Petersburg, Russia</span> 
+            Location: <span>Belgrade, Serbia</span> 
           </li>
           <li class="section-item contacts-item">
             Phone:
-            <a href="tel:+79615902457" class="nav-link contacts-link">+79615902457</a>
+            <a href="tel:+381611735346" class="nav-link contacts-link">+381611735346</a>
           </li>
           <li class="section-item contacts-item">
             Email: 
@@ -84,10 +84,13 @@
               Git, GitHub   
             </li>
             <li class="section-item">
-              VS Code     
+              Visual Studio Code     
             </li>
             <li class="section-item">
-              Figma  
+              Chrome DevTools
+            </li>
+            <li class="section-item">
+              Figma (for developers)
             </li>
           </ul>
         </section>
@@ -97,10 +100,10 @@
         <code>
         function convert(input, source, target) {
           let s = 0, str = '';
-          for(let i = 0; i < input.length; i++) {
+          for(let i = 0; i &lt input.length; i++) {
           s = s*source.length + source.indexOf(input[i]);
         }
-          while (s > 0) {
+          while (s &gt 0) {
           str = target[s % target.length] + str;
             s = Math.floor(s/target.length);
         }
@@ -129,7 +132,10 @@
                 Tønsberg Læringssenter, Norway - <span>Intermediate Norwegian course(B1)</span> 
               </li>
             </ul>
-            <img src="assets/img/rss-certificate.jpg" alt="RSSchool Certificate" width="480" height="360" class="certificate">
+            <section class="certificate-container">
+            <img src="assets/img/rss-certificate.jpg" alt="RSSchool Certificate" width="380" height="260" class="certificate">
+            <img src="assets/img/stage2-certificate.jpg" alt="RSSchool Certificate" width="380" height="260" class="certificate">
+            </section>
         </div>
         </section>
         <section class="projects-section" id="projects">
