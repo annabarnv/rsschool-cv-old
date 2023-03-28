@@ -8,10 +8,10 @@
 * **Phone:** +381611735346
 * **Email:** anna.barnv@gmail.com
 * **GitHub:** annabarnv
- 
+
 ## About Me
 
-I am learning front-end development. I love the idea of taking data and convert it into something visually appealing for users to enjoyably digest. I see programming for myself as a form of creativity and self-expression just like in music. My first education was in the theory of music and harmony. In my opinion, coding and music have similarities. Both require large amounts of deliberate practice and are not an innate talent. Well, with the exception of geniuses.) 
+I am learning front-end development. I love the idea of taking data and convert it into something visually appealing for users to enjoyably digest. I see programming for myself as a form of creativity and self-expression just like in music. My first education was in the theory of music and harmony. In my opinion, coding and music have similarities. Both require large amounts of deliberate practice and are not an innate talent. Well, with the exception of geniuses.
 
 
 ## Skills
@@ -43,9 +43,9 @@ function convert(input, source, target) {
 
 ```
 
-## Education 
+## Education
 
-* **State Budget Professional Educational Institution of the republic of Adygea "College of Arts":** Theory of Music, Piano            
+* **State Budget Professional Educational Institution of the republic of Adygea "College of Arts":** Theory of Music, Piano
 
 * **Courses:**
     - The Rollings Scopes School Course "JavaScript/Front-end. Stage 0, Stage 1, Stage 2."
@@ -53,7 +53,7 @@ function convert(input, source, target) {
     - CS50 lectures
     - Conversational English course for adults (level B1)
     - Norwegian course intermediate level at the folk high school in Norway (B1)
-    
+
 ## Languages:
 
 * **English** - B1 (EPAM Training Portal English test result)
