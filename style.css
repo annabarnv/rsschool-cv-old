@@ -328,8 +328,15 @@ span {
   text-align: center;
 }
 
+.certificate-container {
+  width: min-content;
+  margin-left: 10rem;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
 .certificate {
-  margin-left: 80px;
+  margin-bottom: 2rem;
   border: 1px solid var(--color-accent2);
   box-shadow: var(--box-shadow2);
 }
@@ -498,8 +505,15 @@ h3 {
     margin-bottom: 60px;
   }
 
+}
+
+@media (max-width: 1298px){
+  .certificate-container {
+    margin: 0;
+  }
+
   .certificate {
-    margin: auto;
+    margin: 1rem;
   }
 }
 
