@@ -4,9 +4,9 @@
 
 ## Contacts
 
-* **Location:** Saint-Petersburg, Russia
-* **Phone:** +79615902457
-* **Email:** annabar92@mail.ru
+* **Location:** Belgrade, Serbia
+* **Phone:** +381611735346
+* **Email:** anna.barnv@gmail.com
 * **GitHub:** annabarnv
  
 ## About Me
@@ -17,11 +17,14 @@ I am learning front-end development. I love the idea of taking data and convert 
 ## Skills
 
 * HTML5, CSS3
-* Java Script Basics
+* Vanilla JavaScript
 * Git, GitHub
-* VS Code
+* Visual Studio Code
 * Figma
-
+* TypeScript (basic)
+* Chrome DevTools
+* Figma (for developers)
+* SASS
 
 ## Code Example
 
