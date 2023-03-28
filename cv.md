@@ -20,7 +20,6 @@ I am learning front-end development. I love the idea of taking data and convert 
 * Vanilla JavaScript
 * Git, GitHub
 * Visual Studio Code
-* Figma
 * TypeScript (basic)
 * Chrome DevTools
 * Figma (for developers)
@@ -48,7 +47,7 @@ function convert(input, source, target) {
 * **State Budget Professional Educational Institution of the republic of Adygea "College of Arts":** Theory of Music, Piano            
 
 * **Courses:**
-    - The Rollings Scopes School Course "JavaScript/Front-end. Stage 0", (Stage 1 in progress)
+    - The Rollings Scopes School Course "JavaScript/Front-end. Stage 0, Stage 1, Stage 2."
     - Code Basics Course HTML/CSS/JavaScript for beginners
     - CS50 lectures
     - Conversational English course for adults (level B1)
